@@ -6,5 +6,5 @@ Este repositório contém projetos, layouts e experimentos desenvolvidos com o f
 
 ## 📁 Estrutura
 
-Cada pasta representa um projeto independente. Por exemplo:
+Cada pasta representa um projeto independente.
 
