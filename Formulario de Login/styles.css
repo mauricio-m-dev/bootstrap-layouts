@@ -1,8 +1,10 @@
+/* Define altura total para html e body */
 html, body {
     height: 100%;
 }
 
+/* Estiliza o container do formulário de login */
 .form-container {
-    max-width: 350px;
-    padding: 1rem;
+    max-width: 350px;   /* largura máxima do formulário */
+    padding: 1rem;      /* espaçamento interno */
 }

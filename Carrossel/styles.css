@@ -1,0 +1,31 @@
+.carousel-item {
+  height: 32rem;           /* Altura fixa dos slides */
+  background: #777;        /* Cor de fundo padrão */
+  color: white;            /* Cor do texto */
+  position: relative;      /* Permite posicionamento absoluto dos filhos */
+  min-height: 350px;       /* Altura mínima */
+  overflow: hidden;        /* Esconde conteúdo excedente */
+}
+
+/* Container do conteúdo centralizado no slide */
+.container {
+  position: absolute;      /* Posiciona na base do slide */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;    /* Espaço inferior */
+  z-index: 2;              /* Fica acima da imagem de fundo */
+}
+
+/* Imagem de fundo sobreposta ao slide */
+.overlay-image {
+  position: absolute;      /* Cobre todo o slide */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center; /* Centraliza a imagem */
+  background-size: cover;      /* Cobre todo o espaço */
+  opacity: 0.5;               /* Transparência da imagem */
+  z-index: 1;                 /* Fica atrás do conteúdo */
+}
